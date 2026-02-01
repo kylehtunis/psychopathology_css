@@ -1,4 +1,4 @@
-**AI statement **
+**AI statement**
 
 In this project, we used support of generative AI (ChatGPT/Claude) to: 
 - Help validate the research plan, specifically to help understand whether our plan was managable within two weeks or execution
