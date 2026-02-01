@@ -2,8 +2,10 @@ import numpy as np
 import networkx as nx
 
 
-def get_symptom_network(group_size=6, bridge_size=3): # TODO: @Kyle
-    # create a Borsboom-style network with n symptoms
+def get_symptom_network(group_size=6, bridge_size=3):
+    """
+    Creates a network with two fully connected groups and a fully connected bridge between them.
+    """
     n = group_size*2 + bridge_size
     adj_matrix = np.zeros((n, n))
     # group A
