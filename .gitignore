@@ -209,4 +209,4 @@ __marimo__/
 # result files
 *.png
 *.gif
-*.mp4
+*.mp4__pycache__/
